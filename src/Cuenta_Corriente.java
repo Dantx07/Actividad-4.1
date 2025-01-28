@@ -1,8 +1,8 @@
 public class Cuenta_Corriente extends Cuenta {
 
-    float Sobregiro;
-    int Numero_de_ret = 0;
-    int Numero_de_con = 0;
+    private float Sobregiro;
+    private int Numero_de_ret = 0;
+    private int Numero_de_con = 0;
 
     public Cuenta_Corriente (float Saldo, float Tasa_Anual)  {
         super(Saldo, Tasa_Anual);
